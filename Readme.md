@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Станислав Борцух](https://up.htmlacademy.ru/adaptive/12/user/451793).
-* Наставник: `Неизвестно`.
+* Наставник: `Сергей Зубов`.
 
 ---
 
