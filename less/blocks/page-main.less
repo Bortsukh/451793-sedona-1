@@ -1,0 +1,29 @@
+.page-main__photo {
+  background: url("../img/bg-back-mobile@1x.jpg") center top no-repeat #e5b29e;
+  min-height: 390px;
+  position: relative;
+  margin-bottom: 46px;
+  &--cut{
+    background: url("../img/bg-back-mobile@1x.jpg") center bottom no-repeat #e5b29e;
+    min-height: 158px;
+  }
+}
+.photo__text {
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  &--cut {
+      top: 60px;
+      right: 46px;
+    }
+}
+.page-main__photo::after {
+  position: absolute;
+  content: '';
+  display: block;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: 26.111px;
+  background: url("../img/bg-intro-triangle-mobile.svg") right center no-repeat;
+}
