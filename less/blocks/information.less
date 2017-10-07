@@ -8,17 +8,21 @@ fieldset {
     padding: 0;
   }
 }
+
 legend {
   padding: 0;
 }
+
 .information {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .information__title {
   text-align: center;
   padding: 20px 0;
 }
+
 .information__first-name,
 .information__second-name,
 .information__patronymic-name {
@@ -28,24 +32,28 @@ legend {
     margin-right: 12px;
   }
 }
+
 .information__first-name input {
   min-width: 227px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
 }
+
 .information__second-name input {
   max-width: 190px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
 }
+
 .information__patronymic-name input {
   max-width: 193px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
 }
+
 .information__telephone,
 .information__email {
   text-align: left;
@@ -60,6 +68,7 @@ legend {
     text-align: center;
   }
 }
+
 .information__icon {
   display: flex;
   width: 58px;
@@ -68,17 +77,20 @@ legend {
   align-items: center;
   justify-content: center;
 }
+
 .information__block {
   display: flex;
 }
+
 .information__impression label {
   position: relative;
   margin-left: 58px;
   margin-bottom: 45px;
 }
+
 .information__impression span::after {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   left: -43px;
   top: 0;
@@ -88,12 +100,14 @@ legend {
   background-color: @background-color-6;
   opacity: 0;
 }
-.information__impression input:checked + span:after {
+
+.information__impression input:checked + span::after {
   opacity: 1;
 }
+
 .information__impression span::before {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   left: -60px;
   top: -15px;
@@ -102,17 +116,20 @@ legend {
   border-radius: 50%;
   background-color: @background-color-4;
 }
+
 .information__impression input {
   display: none;
 }
+
 .information__places label {
   position: relative;
   margin-left: 58px;
   margin-bottom: 45px;
 }
+
 .information__places span::after {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   left: -43px;
   top: 0;
@@ -121,9 +138,11 @@ legend {
   background: url("../img/icon-tick.svg") right center no-repeat;
   opacity: 0;
 }
-.information__places input:checked + span:after {
+
+.information__places input:checked + span::after {
   opacity: 1;
 }
+
 .information__places span::before {
   position: absolute;
   content: '';
@@ -135,9 +154,11 @@ legend {
   border-radius: 10%;
   background-color: @background-color-4;
 }
+
 .information__places input {
   display: none;
 }
+
 .information__description textarea {
   min-width: 280px;
   padding: 20px;
@@ -146,10 +167,11 @@ legend {
   margin-bottom: 51px;
   resize: none;
 }
+
 .information_button input {
   min-width: 280px;
   background-color: @background-color-1;
   border: none;
-  padding-bottom: 11px; ;
+  padding-bottom: 11px;
   padding-top: 11px;
 }
