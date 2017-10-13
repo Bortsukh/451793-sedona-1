@@ -41,3 +41,33 @@
 .reason__number {
   padding-bottom: 17px;
 }
+
+@media (min-width: @tablet-width) {
+  .reason__slogan {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reason__header::after {
+    display: none;
+  }
+  .reason__wrapper {
+    display: flex;
+  }
+  .reason__block--blue {
+    width: 256px;
+  }
+  .reason__block--grey {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .reason__wrapper--reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .reason__block--blue {
+    width: 400px;
+  }
+}

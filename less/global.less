@@ -28,3 +28,31 @@ p {
 input::placeholder {
   color: @color-font-2;
 }
+
+@media (min-width: @tablet-width) {
+  .container-main {
+    width: 768px;
+  }
+  .feedback {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  body {
+    min-width: 1200px;
+    background-color: @background-color-4;
+  }
+  .container-main {
+    width: 1200px;
+    background-color: @background-color-2;
+  }
+  .feedback {
+    margin: 0 120px;
+  }
+  .feedback__slogan {
+    width: 440px;
+    margin: 0 auto;
+  }
+}

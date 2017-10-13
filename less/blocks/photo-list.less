@@ -29,3 +29,59 @@
 .photo-list__title {
   padding-top: 15px;
 }
+
+.video__icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: @tablet-width) {
+  .photo__header {
+    max-width: 440px;
+    margin: 30px auto;
+  }
+  .photo-list {
+    margin: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .photo-list__title {
+    padding-top: 0;
+  }
+  .photo-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content:space-between;
+    background-color: @background-color-4;
+    width: 100%;
+  }
+  .wrapper-description {
+    padding-left: 20px;
+  }
+  .wrpapper-like {
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .photo-list__item {
+    position: relative;
+  }
+  .photo-list-wrapper {
+    position: absolute;
+    bottom:25px;
+    opacity: 0.3;
+    background-color: @background-color-8;
+  }
+  .photo-list__title,
+  .photo-list__author,
+  .photo-list__like {
+    opacity: 1;
+    color: @color-font-1;
+  }
+}

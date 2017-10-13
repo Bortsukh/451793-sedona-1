@@ -11,3 +11,18 @@
   border: none;
   outline: none;
 }
+
+@media (min-width: @tablet-width) {
+  .main-nav {
+    background-color: @background-color-2;
+  }
+  .main-nav__list {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main-nav__toggle {
+    display: none;
+  }
+}
