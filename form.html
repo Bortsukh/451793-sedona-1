@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <title>HTML Academy: Седона/Форма</title>
   </head>
@@ -10,12 +11,12 @@
       <header class="page-header">
         <nav class="main-nav">
           <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <button  class="main-nav__toggle" type="button">
+            <button class="main-nav__toggle" type="button">
               <svg fill="#fff" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
                 <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
               </svg>
             </button>
+          <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a class="text-white-four" href="index.html">Главная</a>
             </li>
@@ -28,36 +29,27 @@
             <li class="site-list__item">
               <a class="text-white-four" href="htmlacademy.ru">Html academy</a>
             </li>
-            <li class="site-list__item-white">
+            <li class="site-list__item site-list__item-white">
               <a class="site-list__logo logo">
                 <img  class="logo__image" src="img/logo-sedona-mobile.svg" width="103" height="84" alt="Логотип Седоны">
               </a>
-              <a class="site-list__icon icon">
-                <svg fill="#81b3d2" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
-                  <g>
-                    <rect width="22.928" height="3.964"/>
-                    <rect y="9.009" width="22.928" height="3.964"/>
-                    <rect y="18.018" width="22.928" height="3.964"/>
-                  </g>
-                </svg>
-              </a>
             </li>
           </ul>
+          <a class="site-list__icon icon">
+            <svg fill="#81b3d2" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
+              <g>
+                <rect width="22.928" height="3.964"/>
+                <rect y="9.009" width="22.928" height="3.964"/>
+                <rect y="18.018" width="22.928" height="3.964"/>
+              </g>
+            </svg>
+          </a>
           </div>
         </nav>
       </header>
     <main class="page-main">
       <div class="page-main__photo page-main__photo--cut photo">
-        <svg class="photo__text photo__text--cut" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="234px" height="39px" viewBox="0 0 459.754 79.805" enable-background="new 0 0 459.754 79.805" xml:space="preserve">
-          <g>
-            <path fill="#FFFFFF" d="M44.466,21.738c-3.572-2.979-8.139-4.963-12.902-4.963c-3.572,0-8.338,2.084-8.338,6.253 c0,4.368,5.261,6.055,8.636,7.146l4.964,1.489C47.248,34.74,55.287,40,55.287,52.11c0,7.445-1.787,15.088-7.742,20.149 c-5.855,4.964-13.697,7.048-21.24,7.048c-9.43,0-18.661-3.177-26.305-8.537l8.338-15.683c4.865,4.269,10.621,7.742,17.271,7.742 c4.566,0,9.43-2.283,9.43-7.545c0-5.459-7.643-7.345-11.812-8.535C11.019,43.274,2.978,40.101,2.978,25.607 c0-15.188,10.818-25.112,25.807-25.112c7.543,0,16.775,2.382,23.426,6.154L44.466,21.738z"/>
-            <path fill="#FFFFFF" d="M91.831,18.959v12.506h21.937v16.479H91.831v12.899h23.127v16.479H72.376V2.483h42.582V18.96L91.831,18.959 L91.831,18.959z"/>
-            <path fill="#FFFFFF" d="M129.417,2.482h27.594c20.844,0,38.016,16.377,38.016,37.419c0,21.041-17.271,37.42-38.016,37.42h-27.594 V2.482z M148.872,60.846h4.367c11.612,0,21.539-6.352,21.539-20.942c0-13.4-8.834-20.943-21.341-20.943h-4.565V60.846z"/>
-            <path fill="#FFFFFF" d="M286.873,38.513c0,24.219-17.371,41.292-41.394,41.292c-24.02,0-41.391-17.071-41.391-41.292 C204.089,15.881,223.941,0,245.479,0C267.019,0,286.873,15.881,286.873,38.513z M224.339,38.612 c0,12.905,9.529,22.333,21.141,22.333c11.613,0,21.144-9.43,21.144-22.333c0-10.323-9.526-19.752-21.144-19.752 C233.867,18.86,224.339,28.29,224.339,38.612z"/>
-            <path fill="#FFFFFF" d="M297.238,2.482h19.454l35.636,45.757h0.196V2.482h19.453v74.839h-19.453L316.89,31.465h-0.197v45.856 h-19.454V2.482z"/>
-            <path fill="#FFFFFF" d="M407.345,64.319l-5.16,13.002h-20.646l28.785-74.839h21.242l28.188,74.839h-20.745l-4.862-13.002H407.345z M420.945,25.609h-0.199l-8.039,23.824h16.178L420.945,25.609z"/>
-          </g>
-        </svg>
+        <img  class="photo__text photo__text--cut" src="img/text-sedona.svg" alt="">
       </div>
       <section class="feedback">
         <header class="feedback__header">
@@ -67,8 +59,10 @@
         </header>
         <form class="feedback__information information" action="https://echo.htmlacademy.ru" method="post">
           <h3 class="visually-hidden">Заполните форму, пожалуйста</h3>
-          <fieldset class="information__introduce">
-            <legend class="information__title text-black-one">Представьтесь:</legend>
+          <div class="information__flex">
+          <div class="information__group">
+          <div class="information__introduce">
+            <h3 class="information__title text-black-one">Представьтесь:</h3>
             <div class="information__first-name">
             <label class="text-grey-one" for="first-name">Имя*:</label>
             <input class="text-black-six" type="text" name="first-name" id="first-name" placeholder="Пётр">
@@ -81,9 +75,12 @@
             <label class="text-grey-one" for="patronymic-name">Отчество:</label>
             <input class="text-black-six" type="text" name="patronymic-name" id="patronymic-name" placeholder="Александрович">
             </div>
-          </fieldset>
-          <fieldset class="information__contacts">
-            <legend class="information__title text-black-one">Контактая информация:</legend>
+          </div>
+          </div>
+          <div class="information__group">
+          <div class="information__contacts">
+            <h3 class="information__title information__title--wide text-black-one">Контактая информация:</h3>
+            <div class="information__flex-for-contacts">
             <div class="information__telephone">
             <label class="text-grey-one" for="telephone">Контактый телефон*:</label>
             <div class="information__block">
@@ -112,9 +109,12 @@
             </div>
             </div>
             </div>
-          </fieldset>
-          <fieldset class="information__impression">
-            <legend class="information__title text-black-one">Ваше общее впечатление:</legend>
+            </div>
+          </div>
+          </div>
+          <div class="information__group">
+          <div class="information__impression">
+            <h3 class="information__title text-black-one">Ваше общее впечатление:</h3>
             <div class="information__block">
             <label class="information__radio text-black-six">
               <input type="radio" name="question-impression" value="Скорее положительное" checked>
@@ -136,9 +136,12 @@
               Затрудняюсь ответить
             </label>
             </div>
-          </fieldset>
-          <fieldset class="information__places">
-            <legend class="information__title text-black-one">Посещённый достопримечательности</legend>
+          </div>
+          </div>
+          <div class="information__group">
+          <div class="information__places">
+            <h3 class="information__title information__title--wide text-black-one">Посещённый достопримечательности:</h3>
+            <div class="information__flex-for-place">
             <div class="information__block">
             <label class="information__checkbox text-black-six">
               <input type="checkbox" name="question-places" value="Мост Дьявола" checked>
@@ -167,19 +170,29 @@
               Красные скалы
             </label>
             </div>
-          </fieldset>
-          <fieldset class="information__description">
-            <legend class="information__title text-black-one">Опишите свои эмоции:</legend>
+          </div>
+          </div>
+          </div>
+          <div class="information__group">
+          <div class="information__description">
+            <h3 class="information__title information__title--wide text-black-one">Опишите свои эмоции:</h3>
             <textarea class="text-black-six" name="description" rows="8">Опишите подробно все свои восторги</textarea>
-          </fieldset>
-          <div class="information_button">
+          </div>
+          <div class="information__responce">
+          <div class="information__button">
           <input class="text-white-three" type="submit" value="Отправить отзыв">
+          </div>
+          <div class="information__remark text-black-four">
+            * -ОБЯЗАТЕЛЬНЫЕ ПОЛЯ
+          </div>
+          </div>
+          </div>
           </div>
         </form>
       </section>
     </main>
     <footer class="page-footer">
-      <div class="page-footer__wraper">
+      <div class="page-footer__wrapper">
       <div class="page-footer__hashtag hashtag">
         <a class="hashtag__link text-black-two" href="#">#visitsedona</a>
       </div>

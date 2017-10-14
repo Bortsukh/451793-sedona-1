@@ -8,10 +8,6 @@
   padding: 25px 20px;
 }
 
-.advantages__wrapper {
-  background-color: @background-color-3;
-}
-
 .advantages__block {
   text-align: left;
   padding-left: 8px;
@@ -21,4 +17,20 @@
 
 .advantages__item {
   display: flex;
+}
+
+@media (min-width: @tablet-width) {
+  .advantages__list {
+    display: flex;
+  }
+
+  .advantages__block {
+    text-align: center;
+  }
+
+  .advantages__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
