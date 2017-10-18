@@ -112,15 +112,22 @@
       </section>
       <section class="video">
         <header class="video__header">
-          <h2 class="video__title text-black-one">всё ещё сомневаетесь</h2>
+          <h2 class="video__title text-black-one">всё ещё сомневаетесь?</h2>
           <p class="video__slogan text-grey-three">смотрите видеопрезентацию и скорее за билетами,
           пока они не подоражали в очередной раз!</p>
         </header>
-        <video controls preload="metadata" width="320" height="200">
+        <div class="video__container">
+        <video preload="metadata" width="320" height="200">
           <source src="" type="video/mp4">
           <source src="" type="video/ogg">
           <source src="" type="video/webm">
         </video>
+        <div class="video__adjustment">
+          <div class="video__scale">
+            <div class="video__toggle">
+            </div>
+          </div>
+        </div>
         <div class="video__icon">
           <span class="visually-hidden">Иконки для видео</span>
           <div class="video__replay">
@@ -144,6 +151,7 @@
             </svg>
           </div>
         </div>
+      </div>
       </section>
     </main>
     <footer class="page-footer">
@@ -183,7 +191,7 @@
       <div class="page-footer__copyright copyright">
         <b class="copyright__text text-black-three">Разработано</b>
         <a class="copyright__link" href="https://htmlacademy.ru">
-          <img src="img/htmlacademy.svg" alt="twit" width="48" height="48">
+          <img src="img/logo-htmlacademy.svg" alt="HTMLACADEMY" width="27" height="34">
         </a>
       </div>
       </div>

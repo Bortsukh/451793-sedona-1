@@ -1,6 +1,80 @@
+.video {
+  display: block;
+  margin-bottom: 75px;
+}
+
 .video__header {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 33px;
+  margin-bottom: 35px;
+}
+
+.video__icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video__title {
+  margin-bottom: 26px;
+}
+
+.video__slogan {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.video__container {
+  position: relative;
+}
+
+.video__container video {
+  background-image: url("../img/video-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+.video__scale {
+  position: relative;
+  width: 236px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.video__adjustment {
+  position: absolute;
+  bottom: 68px;
+  left: 20px;
+  width: 280px;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.video__toggle {
+  position: absolute;
+  top: -4px;
+  left: 30px;
+  border: 6px solid @background-color-2;
+  border-radius: 50%;
+}
+
+.video__replay {
+  margin-left: 25px;
+}
+
+.video__subtitles {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.video__fullscreen {
+  margin-right: 23px;
 }
 
 @media (min-width: @tablet-width) {
