@@ -1,13 +1,24 @@
 .page-main__photo {
   background: url("../img/bg-back-mobile@1x.jpg") center top no-repeat #e5b29e;
-  min-height: 390px;
+  max-height: 390px;
   position: relative;
-  margin-bottom: 46px;
+  margin-bottom: 37px;
 
   &--cut {
     background: url("../img/bg-back-mobile@1x.jpg") center bottom no-repeat #e5b29e;
     min-height: 158px;
   }
+}
+
+.page-main__photo::after {
+  position: absolute;
+  content: "";
+  display: block;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: 26.111px;
+  background: url("../img/bg-intro-triangle-mobile.svg") right center no-repeat;
 }
 
 @media (min-width: @tablet-width) {
@@ -25,11 +36,12 @@
 }
 
 .photo__text {
-  width: 100%;
+  width: 280px;
   margin: 90px auto;
 
   &--cut {
-    margin: 60px auto;
+    width: 228px;
+    margin: 50px auto;
   }
 }
 
@@ -42,17 +54,6 @@
       margin: 95px auto;
     }
   }
-}
-
-.page-main__photo::after {
-  position: absolute;
-  content: "";
-  display: block;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  height: 26.111px;
-  background: url("../img/bg-intro-triangle-mobile.svg") right center no-repeat;
 }
 
 @media (min-width: @tablet-width) {
