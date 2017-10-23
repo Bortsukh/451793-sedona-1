@@ -3,10 +3,16 @@
   max-height: 390px;
   position: relative;
   margin-bottom: 37px;
+  @media (min-resolution: @retina-dppx) (min-resolution: @retina-dpi) {
+    background-image: url("../img/bg-back-mobile@2x.jpg");
+  }
 
   &--cut {
     background: url("../img/bg-back-mobile@1x.jpg") center bottom no-repeat #e5b29e;
     min-height: 158px;
+    @media (min-resolution: @retina-dppx) (min-resolution: @retina-dpi) {
+      background-image: url("../img/bg-back-mobile@2x.jpg");
+    }
   }
 }
 
@@ -17,7 +23,7 @@
 
   &--cut {
     margin: 95px auto;
- }
+  }
 }
 
 .page-main__photo::after {
@@ -59,19 +65,19 @@
       width: 460px;
       height: 80px;
       margin-top: 95px;
-   }
- }
+    }
+  }
 
- .page-main__photo::after {
-   position: absolute;
-   content: "";
-   display: block;
-   left: 0;
-   bottom: 0;
-   width: 768px;
-   height: 57px;
-   background: url("../img/bg-intro-triangle-tablet.svg") right center no-repeat;
- }
+  .page-main__photo::after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 768px;
+    height: 57px;
+    background: url("../img/bg-intro-triangle-tablet.svg") right center no-repeat;
+  }
 }
 
 @media (min-width: @desktop-width) {
