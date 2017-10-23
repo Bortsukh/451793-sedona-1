@@ -204,11 +204,12 @@
   .information__flex {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 44px;
   }
 
   .information__group {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .information__flex .information__group:nth-of-type(1) {
@@ -263,12 +264,15 @@
 
   .information__group:nth-of-type(3) .information__title {
     text-align: left;
-    padding-bottom: 82px;
+    padding-bottom: 57px;
+    padding-top: 9px;
   }
 
   .information__telephone input,
   .information__email input {
     width: 590px;
+    margin-bottom: 9px;
+    padding-bottom: 17px;
   }
 
   .information__flex-for-place {
@@ -276,6 +280,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 32px;
+    margin-left: 74px;
+    margin-right: 34px;
 
     .information__block {
       min-width: 240px;
@@ -358,6 +365,23 @@
     margin-top: -1px;
     background: @background-color-7;
   }
+
+  .information__title {
+    font-size: 21px;
+  }
+
+  .information__introduce .information__title {
+    padding-top: 32px;
+  }
+
+  .information__description .information__title {
+    padding-top: 25px;
+    margin-bottom: 43px;
+  }
+
+  .information__impression label {
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: @desktop-width) {
@@ -387,8 +411,23 @@
     width: 260px;
   }
 
+  .information__flex {
+    margin-top: 29px;
+  }
+
   .information__flex-for-contacts {
     display: flex;
+  }
+
+  .information__flex-for-place {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+    padding-top: 27px;
+  }
+
+  .information__flex-for-place .information__block {
+    min-width: 155px;
   }
 
   .information__telephone,
@@ -409,5 +448,23 @@
 
   .information__title--wide::before {
     width: 280px;
+  }
+
+  .information__group:nth-of-type(3) .information__title {
+    padding-left: 82px;
+  }
+
+  .information__contacts .information__title {
+    margin-bottom: 46px;
+  }
+
+  .information__description .information__title {
+    padding-top: 18px;
+  }
+
+  .information__button input {
+    min-width: 480px;
+    padding-top: 17px;
+    padding-bottom: 16px;
   }
 }

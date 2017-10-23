@@ -35,6 +35,15 @@
 }
 
 @media (min-width: @tablet-width) {
+  .site-list {
+    display: flex;
+    width: 100%;
+  }
+
+  .site-list__item {
+    width: 20%;
+  }
+
   .site-list__item a {
     font-family: "PT Sans", "Arial", sans-serif;
     font-weight: bold;
@@ -66,6 +75,13 @@
 
   .site-list__item-white {
     padding: 0;
-    margin-bottom: -28px;
+    margin-bottom: -36px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .site-list__item-white {
+    padding: 0;
+    margin-bottom: -46px;
   }
 }

@@ -26,15 +26,60 @@
 @media (min-width: @tablet-width) {
   .advantages__list {
     display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 57px;
+    padding-bottom: 44px;
   }
 
   .advantages__block {
+    padding-top: 24px;
     text-align: center;
+  }
+
+  .advantages__title {
+    font-size: 21px;
+    margin-bottom: 21px;
   }
 
   .advantages__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 175px;
+  }
+
+  .advantages__item--souvenier {
+    order: 2;
+  }
+
+  .advantages__item--home svg {
+    width: 74.695px;
+    height: 72.346px;
+  }
+
+  .advantages__item--souvenier svg {
+    width: 63px;
+    height: 75.084px;
+  }
+
+  .advantages__item--food svg {
+    width: 76.166px;
+    height: 68.959px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .advantages__list {
+    padding-left: 47px;
+    padding-right: 53px;
+    padding-top: 53px;
+    padding-bottom: 67px;
+  }
+
+  .advantages__item {
+    width: 300px;
   }
 }
