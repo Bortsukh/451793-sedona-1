@@ -20,10 +20,29 @@
   justify-content: center;
 }
 
+.social__item:hover {
+  background-color: @background-color-9;
+}
+
+.social__item:active {
+  background-color: @background-color-10;
+  a {
+    opacity: 0.3;
+  }
+}
+
 .copyright {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.copyright svg:hover {
+  fill: @background-color-1;
+}
+
+.copyright svg:active {
+  fill: @background-color-11;
 }
 
 .copyright__text {
@@ -61,5 +80,24 @@
   .page-footer__hashtag {
     margin-top: 0;
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-footer__wrapper {
+    padding-top: 34px;
+    justify-content: space-between;
+  }
+
+  .page-footer__hashtag {
+    margin-left: 136px;
+  }
+
+  .page-footer__social {
+    margin-right: 101px;
+  }
+
+  .page-footer__copyright {
+    margin-right: 46px;
   }
 }

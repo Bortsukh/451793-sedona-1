@@ -25,8 +25,16 @@ p {
   margin: 0;
 }
 
+input {
+  outline: none;
+}
+
 input::placeholder {
   color: @color-font-2;
+}
+
+textarea {
+  outline: none;
 }
 
 @media (min-width: @tablet-width) {
@@ -44,5 +52,6 @@ input::placeholder {
   .container-main {
     width: 1200px;
     background-color: @background-color-2;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
   }
 }
