@@ -8,6 +8,18 @@
   margin-bottom: 50px;
 }
 
+.booking__find-hotels:hover {
+  background-color: @background-color-9;
+}
+
+.booking__find-hotels:active {
+  background-color: @background-color-10;
+
+  a {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
 .booking__find-hotels a {
   color: @color-font-1;
 }
@@ -31,6 +43,8 @@
 
   .booking__slogan {
     width: 448px;
+    padding-left: 0;
+    padding-right: 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -43,16 +57,17 @@
 
 @media (min-width: @desktop-width) {
   .booking__slogan {
-    width: 450px;
+    width: 510px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .booking__title {
-    padding-top: 93px;
+    padding-top: 57px;
   }
 
   .booking__find-hotels {
     margin-top: 51px;
+    margin-bottom: 69px;
   }
 }

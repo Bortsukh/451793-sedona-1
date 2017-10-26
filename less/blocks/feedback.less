@@ -35,7 +35,19 @@
   }
 
   .feedback__slogan {
+    position: relative;
     width: 440px;
     margin: 0 auto;
+  }
+
+  .feedback__slogan::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 293px;
+    right: 50%;
+    top: 115px;
+    margin-top: -1px;
+    background: @background-color-7;
   }
 }
