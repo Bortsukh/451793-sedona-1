@@ -17,7 +17,6 @@ var run = require("run-sequence");
 var del = require("del");
 var jsMinify = require("gulp-uglify");
 
-
 gulp.task("style", function() {
   gulp.src("less/style.less")
     .pipe(plumber())
@@ -93,7 +92,7 @@ gulp.task("copy", function () {
   ], {
     base: "."
   })
-    .pipe(gulp.dest("build"));
+  .pipe(gulp.dest("build"));
 });
 
 gulp.task("build", function(done) {
